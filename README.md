@@ -9,11 +9,11 @@ A coding challenge to when given a 2D array, flattens it into a 1D array.  Also 
 
 ***
 
-The data to be inputed must be an Array [] that can consist of **Numbers** and **Letters**. It can have nested Arrays [] within the main Array ie. [1,2,[3,4]].
+The data to be inputed must be an Array [] that can consist of **Numbers** and **Letters**. It can have nested Arrays [] within the main Array ie. [1,2,[3,4]].\
 
-The returned value should display the final 2D Array, Highest number in the array, and Lowest number in the array.
+The returned value should display the final 2D Array, Highest number in the array, and Lowest number in the array.\
 
-The function can handle whole and float value Numbers. It can also handle strings but only returns Numbers as the High and Low value. 
+The function can handle whole and float value Numbers. It can also handle strings but only returns Numbers as the High and Low value.\
 
 ***
 
@@ -23,6 +23,6 @@ This is solved by the use of recursion in order to optimize the speed of the fun
 
 ***
 To run this program: Fork or Clone the repository, run npm install to get the needed dependencies.
-Option 1 : run the command jasmine-node .  --autotest --watch
-  to run the jasmine tests in node
+Option 1 : run the command jasmine-node .  --autotest --watch\
+  to run the jasmine tests in node\
 Option 2 : Un comment the comment in spec/flatten.js and run node flatten.js to get a return value in your terminal. 
