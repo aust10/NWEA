@@ -5,7 +5,7 @@ A coding challenge to when given a 2D array, flattens it into a 1D array.  Also 
 * What is the data that is inputed in the function?
 * What is the data that is to be returned?
 * What paramiters are to be met or failed?
-* Test.
+* Test Jasmine.
 
 ***
 
@@ -20,3 +20,9 @@ The function can handle whole and float value Numbers. It can also handle string
 ## Development Thoughts
 
 This is solved by the use of recursion in order to optimize the speed of the function by running the function linearly. In this soulution I opted to go with a forEach() loop insted of a for() loop for readability and to reduce the chance of off by one errors. I also opted to use a Object to hold all my values being transformed to give me a local place to look instead of having three different values and converting to return the proper formating. 
+
+***
+To run this program: Fork or Clone the repository, run npm install to get the needed dependencies.
+Option 1 : run the command jasmine-node .  --autotest --watch
+  to run the jasmine tests in node
+Option 2 : Un comment the comment in spec/flatten.js and run node flatten.js to get a return value in your terminal. 
