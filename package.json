@@ -1,0 +1,14 @@
+{
+  "name": "nwea",
+  "version": "1.0.0",
+  "description": "a project to flatten a 2d array",
+  "main": "flatten.js",
+  "scripts": {
+    "test": "jasmine test/spec.js"
+  },
+  "author": "Austen Cote",
+  "license": "ISC",
+  "devDependencies": {
+    "jasmine": "^3.6.1"
+  }
+}
